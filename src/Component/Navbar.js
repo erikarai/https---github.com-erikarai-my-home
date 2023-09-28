@@ -8,8 +8,6 @@ function Navbar() {
   <div className="container-fluid">
     <a className="navbar-brand">Incedo</a>
     <form className="d-flex" role="search">
-      {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> */}
-      {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
       <button type="button" className="btn btn-light mx-2">Log in</button>
       {/* <button type="button" class="btn btn-light">Sign up</button> */}
       <div class="dropdown">
