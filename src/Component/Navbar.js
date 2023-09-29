@@ -58,6 +58,7 @@ function Navbar() {
         </div>
       </nav>
       <img src={logo} alt="Logo" />
+      <div className="card">
       <ul className="list-group list-group-flush">
         <li className="list-group-item " align="left">
           <div class="participated-calendar-div less-margin-3 dark">
@@ -79,7 +80,8 @@ function Navbar() {
   <li className="list-group-item">A third item</li>
   <li className="list-group-item"></li>
    */}
-      <div className="team-5">
+ 
+      <div className="team-5 my-3">
         <div className="flex1 col-sm-10">
           {/* <div class="col-sm-9">
    <div class="card"> */}
@@ -138,10 +140,10 @@ function Navbar() {
           REGISTER NOW
         </button>
       </div>
+      </div>
 {/*      
      <MainBody/> */}
         
-    
     </>
    
   );
