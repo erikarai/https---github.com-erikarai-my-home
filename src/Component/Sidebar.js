@@ -21,13 +21,16 @@ function Sidebar() {
                                 <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContent='center' alignItems= 'center'>Overview</span></a>
                             </li>
                             <li>
-                                <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline">Prizes</span></a>
+                            <Link to="/MainBody" className="nav-link px-0 align-middle">
+                                <i className="fs-4 bi-table"></i>
+                                <span className="ms-1 d-none d-sm-inline">Prizes</span>
+                            </Link>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#" className="nav-link px-0 align-middle">
-                            <i className="fs-4 bi-table"></i> <span className="ms-1 d-none d-sm-inline"><b>Rules</b></span></a>
+                        <Link to='MainBody' className="nav-link px-0 align-middle">
+                            <i className="fs-4 bi-table"></i> <span className="ms-1 d-none d-sm-inline"><b>Rules</b></span></Link>
                     </li>
                     <li>
                         <a href="#" className="nav-link px-0 align-middle">
