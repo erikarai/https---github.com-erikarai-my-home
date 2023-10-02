@@ -2,6 +2,8 @@ import navbar from "./Navbar.css";
 import logo from "./LogoHackathon.png";
 import React, { useState, useEffect } from "react";
 import MainBody from './MainBody'
+import Sidebar from "./Sidebar";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   var [date, setDate] = useState(new Date());
@@ -141,8 +143,7 @@ function Navbar() {
         </button>
       </div>
       </div>
-{/*      
-     <MainBody/> */}
+    <Sidebar/>
         
     </>
    

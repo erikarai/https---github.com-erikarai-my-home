@@ -6,20 +6,17 @@ import MainBody from './Component/MainBody'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
-  return (
-  
-    <div className="App">
-      <Navbar />
-      <Sidebar />
-      {/* <BrowserRouter>
+  return (<>
+  <Navbar/>
+  <BrowserRouter>
   <Routes>
-    <Route path="/main" element={<MainBody />}></Route>
+    <Route path='/Home' element={<Navbar/>}></Route>
+
   </Routes>
-  </BrowserRouter> */}
-    </div>
-    
-    
+  </BrowserRouter>
+  </>
   );
 }
+
 
 export default App;
