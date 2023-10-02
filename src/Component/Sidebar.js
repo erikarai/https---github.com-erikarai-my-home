@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import { Link, Outlet } from 'react-router-dom'
 
 function Sidebar() {
   return (
@@ -16,7 +17,7 @@ function Sidebar() {
                             <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline"><b>About</b></span> </a>
                         <ul className="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                             <li className="w-100">
-                                <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContent='center' alignItems= 'center'>Overview</span></a>
+                                <Link to="/main" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContent='center' alignItems= 'center'>Overview</span></Link>
                             </li>
                             <li>
                                 <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline">Prizes</span></a>
@@ -54,6 +55,7 @@ function Sidebar() {
            <div className='p-2' style={{flex : 0.5}}>
              hello erika
            </div>
+           <Outlet />
 </div>
   )
 }
