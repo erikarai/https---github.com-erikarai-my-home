@@ -32,7 +32,7 @@ function MainBody() {
 <div id="overview" class="inner-panel" >
 
     <h2 className="regular dark weight-600 caps inline-block float-left fs-5"  style={{textAlign : 'justify', padding:"30px 0px 0px 0px"}}>
-     PRIZES
+     <b>PRIZES</b>
         <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
      </h2>
      <div className='fs-6' style={{padding:"20px 0px 20px 0px", textAlign : 'justify'}}>
