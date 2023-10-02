@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 // import { Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./sidebar.css"
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './MainBody.css'
 // import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import { Typography } from '@mui/material';
@@ -14,7 +14,8 @@ function MainBody() {
 <div id="overview" class="inner-panel" >
 
     <h2 class="regular dark weight-600 caps inline-block float-left fs-5"  style={{textAlign : 'justify'}}>
-     OVERVIEW 
+        <Link to='/over'>
+     OVERVIEW </Link>
         <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
      </h2>
      <div style={{padding:"20px 0px 20px 0px"}}>
