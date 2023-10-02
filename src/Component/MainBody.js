@@ -6,19 +6,21 @@ import "./sidebar.css"
 
 function MainBody() {
   return (
-    <>
-    <div className='grid grid-cols-[1fr_3fr]'>
-    <div className="bg-light border-right" id="sidebar">
-      <div className="sidebar-heading">Sidebar</div>
-      <Nav className="flex-column">
-        <Nav.Link href="#">Link 1</Nav.Link>
-        <Nav.Link href="#">Link 2</Nav.Link>
-        <Nav.Link href="#">Link 3</Nav.Link>
-      </Nav>
+<>
+<div id="overview" class="inner-panel">
+    <h2 class="regular dark weight-600 caps inline-block float-left medium-margin-right">
+        Overview
+    </h2>
+    <div class="section-line"><span></span></div>
+    <div class="clear"></div>
+    <div class="content dark standard-margin-bottom">
+        <div class="content"><h3>Welcome to the ultimate innovation challenge of the year, the CyientifIQ Innovation League - Global Hackathon 2023!</h3>
+<p>This exhilarating event brings together brilliant minds from various fields to tackle the most pressing issues of our time.</p>
+<p>With three captivating themes - <strong>Designing Digital Enterprises, Building Intelligent Products and Platforms, and Solving Sustainability Challenges</strong>—this year's Hackathon promises to be a platform where technology and creativity converge to shape a better future.&nbsp;</p></div>
+        
+        </div>
     </div>
-      
-    </div>
-    </>
+</>
   )
 }
 

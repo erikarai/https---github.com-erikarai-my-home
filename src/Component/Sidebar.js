@@ -13,10 +13,10 @@ function Sidebar() {
                 <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                 <li>
                         <a href="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle">
-                            <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline">About</span> </a>
+                            <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline"><b>About</b></span> </a>
                         <ul className="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                             <li className="w-100">
-                                <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContet='center' alignItems= 'center'>Overview</span></a>
+                                <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContent='center' alignItems= 'center'>Overview</span></a>
                             </li>
                             <li>
                                 <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline">Prizes</span></a>
@@ -25,21 +25,21 @@ function Sidebar() {
                     </li>
                     <li>
                         <a href="#" className="nav-link px-0 align-middle">
-                            <i className="fs-4 bi-table"></i> <span className="ms-1 d-none d-sm-inline">Rules</span></a>
+                            <i className="fs-4 bi-table"></i> <span className="ms-1 d-none d-sm-inline"><b>Rules</b></span></a>
                     </li>
                     <li>
                         <a href="#" className="nav-link px-0 align-middle">
-                            <i className="fs-4 bi-table"></i> <span className="ms-1 d-none d-sm-inline">Judges</span></a>
+                            <i className="fs-4 bi-table"></i> <span className="ms-1 d-none d-sm-inline"><b>Judges</b></span></a>
                     </li>
                     <li>
                         <a href="#submenu2" data-bs-toggle="collapse" className="nav-link px-0 align-middle ">
-                            <i className="fs-4 bi-bootstrap"></i> <span className="ms-1 d-none d-sm-inline" style={{ whiteSpace: 'nowrap' }}>Submission Guideline</span></a>
+                            <i className="fs-4 bi-bootstrap"></i> <span className="ms-1 d-none d-sm-inline" style={{ whiteSpace: 'nowrap' }}><b>Submission Guideline</b></span></a>
     
                     </li>
                 
                     <li>
                         <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline" style={{ whiteSpace: 'nowrap' }}>About Incedo</span> </a>
+                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline" style={{ whiteSpace: 'nowrap' }}><b>About Incedo</b></span> </a>
                     </li>
                 </ul>
                 <hr/>
