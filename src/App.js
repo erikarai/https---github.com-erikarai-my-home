@@ -11,11 +11,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Sidebar />
-      <BrowserRouter>
+      {/* <BrowserRouter>
   <Routes>
     <Route path="/main" element={<MainBody />}></Route>
   </Routes>
-  </BrowserRouter>
+  </BrowserRouter> */}
     </div>
     
     
