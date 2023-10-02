@@ -33,13 +33,13 @@ function Sidebar() {
                     </li>
                     <li>
                         <a href="#submenu2" data-bs-toggle="collapse" className="nav-link px-0 align-middle ">
-                            <i className="fs-4 bi-bootstrap"></i> <span className="ms-1 d-none d-sm-inline">Submission Guideline</span></a>
+                            <i className="fs-4 bi-bootstrap"></i> <span className="ms-1 d-none d-sm-inline" style={{ whiteSpace: 'nowrap' }}>Submission Guideline</span></a>
     
                     </li>
                 
                     <li>
                         <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">About Incedo</span> </a>
+                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline" style={{ whiteSpace: 'nowrap' }}>About Incedo</span> </a>
                     </li>
                 </ul>
                 <hr/>
