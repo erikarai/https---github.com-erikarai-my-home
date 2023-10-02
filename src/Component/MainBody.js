@@ -14,8 +14,8 @@ function MainBody() {
 <div id="overview" class="inner-panel" >
 
     <h2 class="regular dark weight-600 caps inline-block float-left fs-5"  style={{textAlign : 'justify'}}>
-        <Link to='/over'>
-     OVERVIEW </Link>
+       
+     OVERVIEW 
         <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
      </h2>
      <div style={{padding:"20px 0px 20px 0px"}}>

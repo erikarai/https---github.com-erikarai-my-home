@@ -19,7 +19,7 @@ function Sidebar() {
                             <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline"><b>About</b></span> </a>
                         <ul className="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                             <li className="w-100">
-                                <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContent='center' alignItems= 'center'><Link to="/">Overview</Link></span></a>
+                                <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContent='center' alignItems= 'center'>Overview</span></a>
                             </li>
                             <li>
                                 <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline">Prizes</span></a>
@@ -58,7 +58,7 @@ function Sidebar() {
            <div className='p-2' style={{flex : 0.5}}>
              hello erika
            </div>
-           <Outlet />
+           {/* <Outlet /> */}
 </div>
   )
 }

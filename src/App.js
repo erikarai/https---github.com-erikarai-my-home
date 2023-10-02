@@ -8,11 +8,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 function App() {
   return (<>
   <Navbar/>
-  <BrowserRouter>
-  <Routes>
-    <Route path='/' element={<Sidebar/>}></Route>
-  </Routes>
-  </BrowserRouter>
   </>
   );
 }
