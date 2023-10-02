@@ -1,6 +1,7 @@
 import React, {useContext} from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import MainBody from './MainBody'
+import Rules from './Rules'
 
 function Sidebar() {
   return (
@@ -14,7 +15,7 @@ function Sidebar() {
                 </a> */}
                 <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                 <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle">
+                        <a href="/" data-bs-toggle="collapse" className="nav-link px-0 align-middle">
                             <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline"><b>About</b></span> </a>
                         <ul className="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                             <li className="w-100">
@@ -54,7 +55,8 @@ function Sidebar() {
         </div>
 </div>
             <div className='p-2' style={{flex : 1.5}}>
-             <MainBody />
+             <MainBody /> 
+             <Rules />
            </div>
            <div className='p-2' style={{flex : 0.5}}>
              hello erika
