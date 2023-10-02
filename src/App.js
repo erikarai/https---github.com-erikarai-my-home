@@ -10,6 +10,7 @@ import Reasons from './Component/Reasons'
 function App() {
   return (<>
   <Navbar/>
+  <Reasons />
   </>
   );
 }
