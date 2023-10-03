@@ -6,13 +6,20 @@ import Sidebar from './Component/Sidebar';
 import MainBody from './Component/MainBody'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Reasons from './Component/Reasons'
-import Footer from './Component/Footer'
+import Rules from './Component/Rules';
+import ScrollToTopButton from './Component/ScrollToTopButton';
+
 
 function App() {
   return (<>
+  <BrowserRouter>
   <Navbar/>
   <Reasons />
-  <Footer />
+  <Routes>
+  <Route path="/Rules" element={<Rules />} />
+</Routes>
+  </BrowserRouter>
+  <ScrollToTopButton />
   </>
   );
 }

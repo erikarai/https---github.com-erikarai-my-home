@@ -85,8 +85,7 @@ function Navbar() {
  
       <div className="team-5 my-3">
         <div className="flex1 col-sm-10">
-          {/* <div class="col-sm-9">
-   <div class="card"> */}
+      
           <div class="card-body">
             <div className="container text-center fw-light ">
               <div className="row ">
@@ -94,8 +93,6 @@ function Navbar() {
                 <div className="col">IDEATION:</div>
                 <div className="col">
                   ENDS ON:
-                  {/* </div>
-  </div> */}
                 </div>
                 <div className="container text-center ">
                   <div className="row">
@@ -113,8 +110,6 @@ function Navbar() {
               </div>
             </div>
           </div>
-          {/* <div class="col-sm-9">
-   <div class="card"> */}
           <div class="card-body">
             <div className="container text-center fw-light ">
               <div className="row">
@@ -131,8 +126,6 @@ function Navbar() {
               </div>
             </div>
           </div>
-          {/* </div>
-</div> */}
         </div>
         <button
           type="button"

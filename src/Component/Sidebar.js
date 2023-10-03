@@ -2,6 +2,8 @@ import React, {useContext} from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import MainBody from './MainBody'
 import Rules from './Rules'
+import Rightside from './Rightside'
+import ScrollToTopButton from './ScrollToTopButton'
 
 function Sidebar() {
   return (
@@ -30,8 +32,8 @@ function Sidebar() {
                         </ul>
                     </li>
                     <li>
-                        <a href='#' className="nav-link px-0 align-middle">
-                            <i className="fs-4 bi-table"></i> <span className="ms-1 d-none d-sm-inline"><b>Rules</b></span></a>
+                        <Link to='/Rules' className="nav-link px-0 align-middle">
+                            <i className="fs-4 bi-table"></i> <span className="ms-1 d-none d-sm-inline"><b>Rules</b></span></Link>
                     </li>
                     <li>
                         <a href="#" className="nav-link px-0 align-middle">
@@ -56,10 +58,9 @@ function Sidebar() {
 </div>
             <div className='p-2' style={{flex : 1.5}}>
              <MainBody /> 
-             <Rules />
            </div>
            <div className='p-2' style={{flex : 0.5}}>
-             hello erika
+             <Rightside/>
            </div>
            {/* <Outlet /> */}
 </div>
