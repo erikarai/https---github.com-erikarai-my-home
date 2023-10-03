@@ -1,10 +1,12 @@
 import navbar from "./Navbar.css";
 import logo from "./LogoHackathon.png";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createContext } from "react";
 import MainBody from './MainBody'
 import Sidebar from "./Sidebar";
 import { Link } from "react-router-dom";
 
+
+const ThemeContext = createContext(null);
 function Navbar() {
   var [date, setDate] = useState(new Date());
 
@@ -13,6 +15,7 @@ function Navbar() {
     return function cleanup() {
       clearInterval(timer);
     };
+   
   });
   return (
     <>
@@ -21,19 +24,19 @@ function Navbar() {
           <a className="navbar-brand">Incedo</a>
           <form className="d-flex" role="search">
             <button type="button" className="btn btn-light mx-2">
-              Log in
+              <Link to='/login'>Login</Link>
             </button>
             {/* <button type="button" class="btn btn-light">Sign up</button> */}
             <div className="dropdown">
               <button
-                className="btn btn-light dropdown-toggle mx-3"
+                className="btn btn-light mx-3"
                 type="button"
-                data-bs-toggle="dropdown"
+                // data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Sign up
+               <Link to='/signup'>Sign up</Link> 
               </button>
-              <ul className="dropdown-menu">
+              {/* <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
                     Jugde
@@ -54,7 +57,7 @@ function Navbar() {
                     Team Member
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </form>
         </div>
