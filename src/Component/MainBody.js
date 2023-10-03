@@ -19,7 +19,7 @@ function MainBody() {
         <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
      </h2>
      <div style={{padding:"20px 0px 20px 0px"}}>
-     <h3>Welcome to the ultimate innovation challenge of the year, the CyientifIQ Innovation League - Global Hackathon 2023!</h3> 
+     <h3>Welcome to the ultimate innovation challenge of the year, the Incedo Innovation League - Hackathon 2023!</h3> 
      </div>
     
        <div style={{textAlign : 'justify'}}>
