@@ -19,12 +19,12 @@ function Sidebar() {
                             <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline"><b>About</b></span> </a>
                         <ul className="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                             <li className="w-100">
-                                <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContent='center' alignItems= 'center'>Overview</span></a>
+                                <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContent='center' alignItems= 'center'><Link to='/over'>Overview </Link></span></a>
                             </li>
                             <li>
                             <a href='#' className="nav-link px-0 align-middle">
                                 <i className="fs-4 bi-table"></i>
-                                <span className="ms-1 d-none d-sm-inline">Prizes</span>
+                                <span className="ms-1 d-none d-sm-inline"><Link to='/prize'>Prizes</Link></span>
                             </a>
                             </li>
                         </ul>
