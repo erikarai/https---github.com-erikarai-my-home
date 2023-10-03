@@ -7,12 +7,23 @@ import MainBody from './Component/MainBody'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Reasons from './Component/Reasons'
 import Footer from './Component/Footer'
+import Login from './Component/Login';
+import Signup from './Component/Signup';
+import Group from './Component/Group';
 
 function App() {
   return (<>
-  <Navbar/>
-  <Reasons />
-  <Footer />
+ <BrowserRouter>
+ <Routes>
+ <Route path='/' element={<Group />} />
+
+< Route element={<Login/>} path='/login'/>
+
+<Route path="/over" element={<Sidebar />}></Route>
+
+<Route path="/signup" element={<Signup />}></Route>
+ </Routes>
+ </BrowserRouter>
   </>
   );
 }
