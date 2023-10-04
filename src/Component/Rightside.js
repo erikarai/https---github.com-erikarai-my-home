@@ -1,10 +1,11 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './Rightside.css'
+// import ScrollToTopButton from './ScrollToTopButton'
 
-export default function Rightside() {
+export default function Rightside(){
   return (
     <>
-     <div className="team-5 my-3">
+     <div className="Rightdiv my-3" >
         <div className="flex1 col-sm-10">
           <div class="card-body border">
             <div className="container text-center fw-light ">

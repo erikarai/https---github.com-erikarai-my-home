@@ -10,6 +10,8 @@ import Footer from './Component/Footer'
 import Login from './Component/Login';
 import Signup from './Component/Signup';
 import Group from './Component/Group';
+import ScrollToTopButton from './Component/ScrollToTopButton';
+
 
 function App() {
   return (<>
