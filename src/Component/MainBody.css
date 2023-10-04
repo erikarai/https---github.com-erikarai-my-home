@@ -1,3 +1,7 @@
 p.bodypart{
     line-height: 5.8;
 }
+
+.inner-panel{
+    overflow-y: 'scroll'
+}

@@ -72,7 +72,33 @@ function MainBody() {
       </ul>
     </Typography>
 </div>
-    
+<div id="overview" class="inner-panel" >
+
+<h2 className="regular dark weight-600 caps inline-block float-left fs-5"  style={{textAlign : 'justify', padding:"20px 0px 0px 0px"}}>
+ <b>RULES</b>
+    <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
+ </h2>
+ 
+<Typography component="div">
+  <ul style={{textAlign : 'justify'}}>
+    <li>This is an online hackathon, and you may participate from anywhere.</li>
+    <li>Registration is open for both individuals and teams of up to five (5) members. If you would like to join a team, you have two options available: invite friends to form your team or browse registered participants (located in the Teams Tab) and request to join a team.</li>
+  <p><b>*Once the Ideation phase ends, you may not join another team.</b></p>
+  <li >The hackathon will be held online. The hackathon Ideation phase starts on September 29, 2023, at 12:40 pm PDT and ends on October 16, 2023, at 11:55 pm PDT. Judging Ideation phase with an announcement on October 23, 2023, at 9 am PDT on teams that will move forward to the development phase. The development phase starts on October 23, 2023, at 9 am PDT and ends on November 19, 2023, at 5 pm PDT. Winners will be announced on December 7, 2023, at 9 am PDT.</li>
+  <p style={{padding:"20px 0px 20px 0px"}}>In the Ideation phase, your team will be required to submit an idea as specified for this phase. The submissions will undergo evaluation, and to progress to the Development phase, your team must attain a score of 70 points or higher. This score will determine your eligibility to proceed to the next phase.</p>
+  </ul>
+</Typography>
+
+<Typography component="div">
+      <ul style={{textAlign : 'justify'}}>
+        <li>There are 3 themes for the hackathon, and participants must submit a hack that falls under one of these themes.</li>
+        <li>Participants can submit their hack as many times as they want, and the last hack will be considered as the final submission.</li>
+        <li>Participants must come up with new and innovative ideas, and any copied idea will be disqualified.</li>
+        <li>The hack must be developed entirely during the Hackathon duration.</li>
+        <li>Participants can use freely available systems and open-source libraries.</li>
+      </ul>
+    </Typography>
+</div>
 
 </>
   )
