@@ -60,7 +60,7 @@ function Sidebar() {
              <MainBody /> 
            </div>
            <div className='p-2' style={{flex : 0.5}}>
-             <Rightside/>
+            <div className='Scroll'><ScrollToTopButton/></div> 
            </div>
            {/* <Outlet /> */}
 </div>
