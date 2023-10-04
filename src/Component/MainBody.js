@@ -11,9 +11,9 @@ import { Typography } from '@mui/material';
 function MainBody() {
   return (
 <>
-<div id="overview" class="inner-panel" >
+<div id="overview" className="inner-panel" >
 
-    <h2 class="regular dark weight-600 caps inline-block float-left fs-5"  style={{textAlign : 'justify'}}>
+    <h2 className="regular dark weight-600 caps inline-block float-left fs-5"  style={{textAlign : 'justify'}}>
        
      OVERVIEW 
         <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
@@ -29,7 +29,7 @@ function MainBody() {
 <p style={{textAlign : 'justify'}}>With three captivating themes - <strong>Designing Digital Enterprises, Building Intelligent Products and Platforms, and Solving Sustainability Challenges</strong>—this year's Hackathon promises to be a platform where technology and creativity converge to shape a better future.&nbsp;</p>
 </div>
 
-<div id="overview" class="inner-panel" >
+<div id="prize" className="inner-panel" >
 
     <h2 className="regular dark weight-600 caps inline-block float-left fs-5"  style={{textAlign : 'justify', padding:"30px 0px 0px 0px"}}>
      <b>PRIZES</b>
