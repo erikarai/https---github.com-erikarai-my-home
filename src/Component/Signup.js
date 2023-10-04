@@ -36,6 +36,11 @@ export default function Signup() {
         userdata.password = event.target.value
 
     }
+    function handleRole(event) {
+
+        userdata.password = event.target.value
+
+    }
 
  
 
@@ -145,7 +150,30 @@ export default function Signup() {
 
             </div>
                        
-           
+            <div className="form-group mt-3">
+
+              <label>Role</label>
+
+              {/* <input
+
+                onChange={handleRole}
+
+                type="role"
+
+                className="form-control mt-1"
+
+                placeholder="Email Address"
+
+              /> */}
+              <select class="form-select" aria-label="Default select example">
+  <option selected>Select your Role</option>
+  <option value="1">Participant</option>
+  <option value="2">Team Member</option>
+  <option value="3">Panelist</option>
+  <option value="4">Judge</option>
+</select>
+
+            </div>
 
             <div className="form-group mt-3">
 
