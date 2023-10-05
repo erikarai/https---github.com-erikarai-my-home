@@ -26,5 +26,8 @@
     max-width: 900px;
     height: 610px;
     overflow-y: auto;
-    margin: 15px;
+    margin: 10px;
+}
+.p-2{
+    margin-left: 0px;
 }

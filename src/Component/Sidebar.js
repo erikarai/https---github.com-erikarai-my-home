@@ -9,7 +9,7 @@ function Sidebar() {
 
   return (
      <div className='d-flex '>
-    <div className="p-2 style={{ flex : 1.5}}">
+    <div className="p-2 style={{ flex : 1}}">
     <div className="row flex-nowrap bg-dark">
         <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0">
             <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
@@ -60,7 +60,7 @@ function Sidebar() {
             <div className='p-21' style={{flex : 2}}>
              <MainBody /> 
            </div>
-           <div className='p-2' style={{flex : 0.5}}>
+           <div className='p-2' style={{flex : 0.7}}>
             <ScrollToTopButton/>
            </div>
            {/* <Outlet /> */}
