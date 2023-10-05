@@ -178,12 +178,12 @@ function MainBody() {
     <h5  style={{textAlign : 'justify'}}><b>Here are some key points about Incedo:-</b></h5>
     <Typography component="div">
       <ul style={{textAlign : 'justify'}}>
-        <li>**Services**: Incedo offers a range of services, including data engineering and analytics, digital product engineering, customer experience management, and emerging technology solutions. They work with clients to help them harness the power of data and technology to improve their business operations and make data-driven decisions.</li>
-        <li>**Industry Focus**: Incedo has a strong presence in industries such as financial services, where they help clients with data analytics, risk management, and digital transformation. They also serve clients in healthcare and life sciences, assisting with data management, research and development, and regulatory compliance.</li>
-        <li>**Technology Expertise**: Incedo has expertise in various technologies and tools used in data analytics and digital transformation, including big data, cloud computing, artificial intelligence, machine learning, and blockchain.</li>
-        <li>**Global Presence**: Incedo has a global presence, with offices and delivery centers in multiple locations worldwide. Their global reach allows them to serve clients across different regions effectively.</li>
-        <li>**Clientele**: Incedo has worked with a diverse range of clients, including Fortune 500 companies, startups, and mid-sized enterprises. They collaborate closely with their clients to develop customized solutions that address their specific business needs.</li>
-        <li>**Innovation**: The company focuses on innovation and staying at the forefront of technology trends. They often collaborate with clients to develop innovative solutions that can drive business growth and improve efficiency.</li>
+        <li><b>Services:</b> Incedo offers a range of services, including data engineering and analytics, digital product engineering, customer experience management, and emerging technology solutions. They work with clients to help them harness the power of data and technology to improve their business operations and make data-driven decisions.</li>
+        <li><b>Industry Focus:</b> Incedo has a strong presence in industries such as financial services, where they help clients with data analytics, risk management, and digital transformation. They also serve clients in healthcare and life sciences, assisting with data management, research and development, and regulatory compliance.</li>
+        <li><b>Technology Expertise:</b> Incedo has expertise in various technologies and tools used in data analytics and digital transformation, including big data, cloud computing, artificial intelligence, machine learning, and blockchain.</li>
+        <li><b>Global Presence:</b> Incedo has a global presence, with offices and delivery centers in multiple locations worldwide. Their global reach allows them to serve clients across different regions effectively.</li>
+        <li><b>Clientele:</b> Incedo has worked with a diverse range of clients, including Fortune 500 companies, startups, and mid-sized enterprises. They collaborate closely with their clients to develop customized solutions that address their specific business needs.</li>
+        <li><b>Innovation:</b> The company focuses on innovation and staying at the forefront of technology trends. They often collaborate with clients to develop innovative solutions that can drive business growth and improve efficiency.</li>
       </ul>
     </Typography>
 </div>
