@@ -11,6 +11,8 @@ import Login from './Component/Login';
 import Signup from './Component/Signup';
 import Group from './Component/Group';
 import ScrollToTopButton from './Component/ScrollToTopButton';
+import ForgotPassword from './Component/ForgotPassword';
+
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
 <Route path="/over" element={<Sidebar />}></Route>
 
 <Route path="/signup" element={<Signup />}></Route>
+<Route path="/pass" element={<ForgotPassword />}></Route>
+
  </Routes>
  </BrowserRouter>
   </>

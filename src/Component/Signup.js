@@ -211,7 +211,7 @@ export default function Signup() {
 
             <p className="text-center mt-2">
 
-              Forgot <a href="#">password?</a>
+              Forgot  <Link to="/pass"><a href="#">password?</a></Link>
 
             </p>
 
