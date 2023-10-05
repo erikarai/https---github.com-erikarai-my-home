@@ -19,7 +19,7 @@ function Sidebar() {
                 <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                 <li>
                         <a href="/" data-bs-toggle="collapse" className="nav-link px-0 align-middle">
-                            <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline"><b>About</b></span> </a>
+                            <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline text-white"><b>About</b></span> </a>
                         <ul className="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                             <li className="w-100">
                                 <a href="#" className="nav-link px-0"> <span className="d-none d-sm-inline" justifyContent='center' alignItems= 'center'><Link to='/over' className='view text-white'>Overview </Link></span></a>
