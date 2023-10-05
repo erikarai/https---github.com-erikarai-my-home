@@ -24,7 +24,7 @@ function App() {
 < Route element={<Login/>} path='/login'/>
 
 <Route path="/over" element={<Sidebar />}></Route>
-
+<Route path="/Rules" element={<MainBody />}></Route>
 <Route path="/signup" element={<Signup />}></Route>
 <Route path="/pass" element={<ForgotPassword />}></Route>
 

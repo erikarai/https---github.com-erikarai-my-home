@@ -57,7 +57,7 @@ function Sidebar() {
         </div>
         </div>
 </div>
-            <div className='p-2' style={{flex : 1.5}}>
+            <div className='p-21' style={{flex : 2}}>
              <MainBody /> 
            </div>
            <div className='p-2' style={{flex : 0.5}}>

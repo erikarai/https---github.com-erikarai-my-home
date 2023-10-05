@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import React, {useState, useContext, addEventListener} from 'react'
 // import { Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./sidebar.css"
@@ -9,6 +9,7 @@ import { Typography } from '@mui/material';
 
 
 function MainBody() {
+
   return (
 <>
 <div id="overview" className="inner-panel" >
@@ -75,7 +76,7 @@ function MainBody() {
 <div id="overview" class="inner-panel" >
 
 <h2 className="regular dark weight-600 caps inline-block float-left fs-5"  style={{textAlign : 'justify', padding:"20px 0px 0px 0px"}}>
- <b>RULES</b>
+ <b> RULES</b>
     <div style={{flex: 1, height: '1px', backgroundColor: 'black'}} />
  </h2>
  
