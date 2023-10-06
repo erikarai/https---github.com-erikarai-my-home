@@ -45,4 +45,8 @@ p.bodypart{
     background: #f8d0e6;
     padding: 40px;
   }
+  ::-webkit-scrollbar {
 
+    display: none;
+
+}
