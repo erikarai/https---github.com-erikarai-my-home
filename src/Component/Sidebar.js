@@ -229,7 +229,7 @@ function Sidebar() {
     </Typography>
 </div>
            </div>
-           <div className='p-2' style={{flex : 0.7}}>
+           <div className='p-2' style={{ flex: 0.7, zIndex: -1 }}>
             <ScrollToTopButton/>
            </div>
            {/* <Outlet /> */}
